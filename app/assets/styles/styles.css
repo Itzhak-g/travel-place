@@ -21,3 +21,4 @@ $mainBlue: #2f5572;
 @import 'modules/_generic-content-container';
 @import 'modules/_section-title';
 @import 'modules/_feature-item';
+@import 'modules/_testimonial';
