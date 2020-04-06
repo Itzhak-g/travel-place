@@ -23,3 +23,5 @@ $mainBlue: #2f5572;
 @import 'modules/_feature-item';
 @import 'modules/_testimonial';
 @import 'modules/_site-footer';
+@import 'modules/_site-header';
+@import 'modules/_primary-nav';

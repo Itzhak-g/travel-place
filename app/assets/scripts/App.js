@@ -1,6 +1,11 @@
 import '../../assets/styles/styles.css'
+import MobileMenu from './modules/MobileMenu'
 
 if(module.hot) {
     module.hot.accept();
 }
-//alert("Hello, this is just a test - - - -")
+
+let mobileMenu = new MobileMenu();
+
+
+
