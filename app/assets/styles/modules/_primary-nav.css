@@ -37,7 +37,7 @@
         }
     }
 
-    a {
+    a {                     /*  The rull targetting the links elements  */
         color: #FFF;
         font-weight: 300;
         text-decoration: none;
@@ -50,6 +50,10 @@
             font-size: 1rem;
             padding: 12px 0;  
             background-color: transparent;
+
+            &.is-current-link {
+                color: #fabb69;
+            }
         }
     }
 }
