@@ -5,6 +5,7 @@ import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
 //   import Modal from './modules/Modal'
 // alert("testing!!!!!!!");
+import ClientArea from './modules/ClientArea'
 
 if(module.hot) {
     module.hot.accept();
@@ -17,6 +18,7 @@ new RevealOnScroll(document.querySelectorAll(".testimonial"), 60);
 new StickyHeader();
 //   new Modal();
 let modal;
+new ClientArea()
 
 document.querySelectorAll(".open-modal").forEach( el => {
     el.addEventListener("click", e => {
